@@ -8,7 +8,7 @@ function squareDigits(num){
       console.log(result) // issue square rooting string not number
       
     }
-    let int = result.reduce((accum, digit) => (accum * 10) + digit, 0);// convert array to num
+    let int =  parseInt(result.join(''));// convert array to num
     return int;
     
   }
